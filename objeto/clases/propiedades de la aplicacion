@@ -1,0 +1,19 @@
+# Nombre de la aplicación
+spring.application.name=mi-api-inventario
+
+# Configuración de la base de datos
+spring.datasource.url=jdbc:postgresql://dpg-d123456mcj7s73e8pqmg-a.oregon-postgres.render.com:5432/mi_inventario_db
+spring.datasource.username=usuario_inventario
+spring.datasource.password=contraseñaSegura123!
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+# Configuración de correo electrónico
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=miemail@ejemplo.com
+spring.mail.password=miContraseñaSegura!
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
