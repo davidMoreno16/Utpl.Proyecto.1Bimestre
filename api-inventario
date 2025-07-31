@@ -1,1 +1,24 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.ejemplo.api.EjemploApplicationTests" time="10.123" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/path/to/your/classes:/path/to/your/libs:"/>
+    <property name="java.vm.vendor" value="YourVendor"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="APPLICATION_NAME" value="ejemplo-api"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.name" value="yourusername"/>
+    <property name="file.encoding" value="UTF-8"/>
+  </properties>
+  <testcase name="contextLoads" classname="com.ejemplo.api.EjemploApplicationTests" time="0.500">
+    <system-out><![CDATA[
+2025-07-26T23:06:50.685 [main] INFO com.example.test.context -- Starting EjemploApplicationTests using Java 21.0.7
+2025-07-26T23:06:51.530 [main] INFO c.e.api.EjemploApplicationTests -- No active profile set, falling back to default.
+2025-07-26T23:06:52.891 [main] INFO .s.d.r.c.RepositoryConfigurationDelegate -- Bootstrapping Spring Data JPA repositories.
+    ]]></system-out>
+    <system-err><![CDATA[
+WARNING: Dynamic loading of agents will be disallowed by default in a future release.
+    ]]></system-err>
+  </testcase>
+</testsuite>
